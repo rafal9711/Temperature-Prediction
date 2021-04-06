@@ -2,11 +2,8 @@ import argparse
 import json
 from pathlib import Path
 from sklearn import metrics
-
 import pandas as pd
-
 from processing.utils import perform_processing
-
 
 
 def main():
