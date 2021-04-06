@@ -21,8 +21,8 @@ The aim of the project is to make two predictions:
 $ pip install -r requirements.txt
 ```
 To run this project, you need to pass two arguments:
-path to images directory,
-path to output json file
+path to input json file,
+path to output result csv file
 ```
-$ python main.py images_dir results_file_json
+$ python main.py input_file results_file_csv
 ```
